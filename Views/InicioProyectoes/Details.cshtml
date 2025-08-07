@@ -1,0 +1,139 @@
+﻿@model U1_evaluacion_sumativa.Models.InicioProyecto
+@{
+    ViewData["Title"] = "Details";
+    var trabajadores = ViewBag.Trabajadores as List<Trabajadore> ?? new List<Trabajadore>();
+    var direccionamientos = ViewBag.DireccionamientoIp as List<DireccionamientoIp> ?? new List<DireccionamientoIp>();
+    @Model.FechaInicio?.ToShortDateString()
+    @Model.FechaFinalizacion?.ToShortDateString()
+}
+
+@functions {
+    public string nombre_estado(int? estado)
+    {
+        if (estado == 0) { return "Finalizado"; }
+        else if (estado == 1) { return "Proceso"; }
+        else if (estado == 2) { return "Cancelado"; }
+        else { return "Estado no valido"; }
+    }
+}
+<h1>Details</h1>
+
+<div>
+    <div>
+        
+        <div class="col-md-6">
+            <h4 class="mb-3">Información del Proyecto</h4>
+            <dl class="row">
+            <dt class="col-sm-2">Nombre</dt>
+            <dd class="col-sm-10">@Model.Proyecto.Nombre</dd>
+
+            <dt class="col-sm-2">Descripción</dt>
+            <dd class="col-sm-10">@Model.Proyecto.Descripcion</dd>
+
+
+            <dt class="col-sm-2">Estado</dt>
+            <dd class="col-sm-10">@nombre_estado(@Model.Proyecto.Estado)</dd>
+
+            <dt class="col-sm-2">Tipo</dt>
+            <dd class="col-sm-10">@Model.Proyecto.Tipo</dd>
+        </dl>
+        </div>
+        
+
+
+
+        <div class="col-md-6">
+            <h4 class="mt-4 mb-3">Información de Inicio del Proyecto</h4>
+            <dl class="row">
+            <dt class="col-sm-2">Entidad Involucrada</dt>
+            <dd class="col-sm-10">@Model.EntidadInvolucrada</dd>
+
+            <dt class="col-sm-2">Fecha de Inicio</dt>
+            <dd class="col-sm-10">@Model.FechaInicio</dd>
+
+            <dt class="col-sm-2">Fecha de Finalización</dt>
+            <dd class="col-sm-10">@Model.FechaFinalizacion</dd>
+
+            <dt class="col-sm-2">Estado</dt>
+            <dd class="col-sm-10">@nombre_estado(@Model.Estado)</dd>
+
+            <dt class="col-sm-2">Observaciones</dt>
+            <dd class="col-sm-10">@Model.Observaciones</dd>
+        </dl>
+        </div>
+        <div class="d-flex gap-2">
+            <form asp-controller="InicioProyectoes" asp-action="Cancelar" asp-route-id="@Model.Id" method="post">
+                <button type="submit" class="btn btn-danger">Cancelar proyecto</button>
+            </form>
+
+            <form asp-controller="InicioProyectoes" asp-action="Finalizar" asp-route-id="@Model.Id" method="post">
+                <button type="submit" class="btn btn-success">Finalizar proyecto</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+
+<h2>Trabajadores del Proyecto</h2>
+<p><a class="btn btn-success" asp-controller="Trabajadores" asp-action="Create" asp-route-id="@Model?.Id">Agregar</a></p>
+<table class="table table-bordered table-striped">
+    <thead class="table-success">
+        <tr>
+            <th>ID</th>
+            <th>Cargo</th>
+            <th>Usuario</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var trabajador in trabajadores)
+        {
+            <tr>
+                <td>@trabajador.Id</td>
+                <td>@trabajador.Cargo</td>
+                <td>@trabajador.Usuario?.Nombre</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<h2>Direccionamiento IP Asociado</h2>
+<p><a class="btn btn-success" asp-controller="DireccionamientoIps" asp-action="Create" asp-route-id="@Model?.Id">Agregar</a></p>
+<table class="table table-bordered table-striped">
+    <thead class="table-success">
+        <tr>
+            <th>SubRed</th>
+            <th>Network</th>
+            <th>Mask</th>
+            <th>Cant IP Totales</th>
+            <th>Cant IP Host</th>
+            <th>Ip Broadcast</th>
+            <th>Rango Inicial</th>
+            <th>Rango Final</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var direccionamiento in direccionamientos)
+        {
+            <tr>
+                <td>@direccionamiento.SubRed</td>
+                <td>@direccionamiento.IpNetwork/@direccionamiento.Prefijo</td>
+                <td>@direccionamiento.Mask</td>
+                <td>@direccionamiento.CantIptotales</td>
+                <td>@direccionamiento.CantIpHost</td>
+                <td>@direccionamiento.IpBroadcast</td>
+                <td>@direccionamiento.RangoInicial</td>
+                <td>
+                    @direccionamiento.RangoFinal
+                    <a asp-controller="DireccionamientoIps" asp-action="Delete" asp-route-id="@direccionamiento.Id" title="Eliminar" class="text-danger ms-2">
+                        <i class="bi bi-trash-fill"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

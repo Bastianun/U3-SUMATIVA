@@ -1,0 +1,74 @@
+﻿@model U1_evaluacion_sumativa.Models.DireccionamientoIp
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>DireccionamientoIp</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="IpNetwork" class="control-label"></label>
+                <input asp-for="IpNetwork" class="form-control" />
+                <span asp-validation-for="IpNetwork" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Prefijo" class="control-label"></label>
+                <input asp-for="Prefijo" class="form-control" />
+                <span asp-validation-for="Prefijo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mask" class="control-label"></label>
+                <input asp-for="Mask" class="form-control" />
+                <span asp-validation-for="Mask" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CantIptotales" class="control-label"></label>
+                <input asp-for="CantIptotales" class="form-control" />
+                <span asp-validation-for="CantIptotales" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CantIpHost" class="control-label"></label>
+                <input asp-for="CantIpHost" class="form-control" />
+                <span asp-validation-for="CantIpHost" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IpBroadcast" class="control-label"></label>
+                <input asp-for="IpBroadcast" class="form-control" />
+                <span asp-validation-for="IpBroadcast" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RangoInicial" class="control-label"></label>
+                <input asp-for="RangoInicial" class="form-control" />
+                <span asp-validation-for="RangoInicial" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RangoFinal" class="control-label"></label>
+                <input asp-for="RangoFinal" class="form-control" />
+                <span asp-validation-for="RangoFinal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InicioProyectoId" class="control-label"></label>
+                <select asp-for="InicioProyectoId" class="form-control" asp-items="ViewBag.InicioProyectoId"></select>
+                <span asp-validation-for="InicioProyectoId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

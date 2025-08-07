@@ -1,0 +1,58 @@
+﻿# Build results
+obj/
+out/
+
+# Rider / JetBrains
+.idea/
+
+# Visual Studio user files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# EF Core and local DBs
+*.mdf
+*.ldf
+*.sqlite
+Migrations/
+
+# Publish files
+*.Publish.xml
+publish/
+
+# Backup and temp files
+*.bak
+*.tmp
+*.swp
+*.orig
+
+# dotnet secrets
+secrets.json
+
+# Configuration (keep base, ignore environment-specific)
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+# npm/yarn packages (optional frontend)
+node_modules/
+dist/
+
+# Docker files (if present)
+**/Dockerfile
+**/docker-compose*
+

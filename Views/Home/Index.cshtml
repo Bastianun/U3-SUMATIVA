@@ -1,0 +1,24 @@
+﻿@using System.Security.Claims;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+@if (User.Identity!.IsAuthenticated)
+{
+    <div class="text-center">
+        <h1 class="display-4">
+            Bienvenido <br /><b>
+            @User.Claims.Where(c =>
+            c.Type == ClaimTypes.Name).Select(c =>
+            c.Value).SingleOrDefault()
+        @User.Claims.Where(c =>
+                c.Type == ClaimTypes.Email).Select(c =>
+                c.Value).SingleOrDefault()
+        </b>
+    </h1>
+    <a class="btn btn-primary" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
+    <a class="btn btn-primary" asp-controller="Proyectoes" asp-action="Index">Proyectos</a>
+</div>
+}

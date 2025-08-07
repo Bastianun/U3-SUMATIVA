@@ -1,0 +1,85 @@
+﻿@model IEnumerable<U1_evaluacion_sumativa.Models.DetalleProyecto>
+
+@{
+    ViewData["Title"] = "Detalle Por Proyectos";
+    var proyecto = ViewBag.Proyecto as U1_evaluacion_sumativa.Models.Proyecto;
+}
+
+<h1>Proyecto</h1>
+<p>Servicio ID: @ViewBag.servicio_id</p>
+
+
+<div class="container mt-4">
+    <div class="row mb-4">
+        <div class="col-md-8 offset-md-2">
+            <div class="card shadow rounded-4">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">Proyecto: @proyecto?.Nombre</h5>
+                </div>
+                <div class="card-body">
+                    <p><strong>Descripción:</strong> @proyecto?.Descripcion</p>
+                    <p><strong>Estado:</strong> @proyecto?.Estado</p>
+                    <p><strong>Tipo:</strong> @proyecto?.Tipo</p>
+                    <p><strong>Usuario asignado:</strong> @proyecto?.UsuarioId</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-2">
+        <div class="col-md-8 offset-md-2 d-flex justify-content-between align-items-center">
+            <h5>Detalles del Proyecto</h5>
+
+            <a asp-action="Create" asp-route-id="@proyecto?.Id" class="btn btn-success">
+                <i class="bi bi-plus-circle"></i> Agregar Detalle
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Nombre)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Descripcion)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Proyecto)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Nombre)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Descripcion)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Proyecto.Id)
+                            </td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+
+
+

@@ -1,0 +1,89 @@
+﻿@model IEnumerable<U1_evaluacion_sumativa.Models.DireccionamientoIp>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SubRed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IpNetwork)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Prefijo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mask)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CantIptotales)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CantIpHost)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IpBroadcast)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RangoInicial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RangoFinal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InicioProyecto)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubRed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IpNetwork)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Prefijo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mask)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CantIptotales)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CantIpHost)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IpBroadcast)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RangoInicial)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RangoFinal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InicioProyecto.Id)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

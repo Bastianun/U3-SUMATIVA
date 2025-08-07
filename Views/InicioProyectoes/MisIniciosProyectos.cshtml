@@ -1,0 +1,68 @@
+﻿@{
+}
+@model IEnumerable<U1_evaluacion_sumativa.Models.Trabajadore>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Listar inicio de proyectos</h1>
+
+<p>
+    <a asp-action="Create">Agregar</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Inicioproyecto.EntidadInvolucrada)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Inicioproyecto.FechaInicio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Inicioproyecto.FechaFinalizacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Inicioproyecto.Estado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Inicioproyecto.Observaciones)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Inicioproyecto.Proyecto)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Inicioproyecto.EntidadInvolucrada)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Inicioproyecto.FechaInicio)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Inicioproyecto.FechaFinalizacion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Inicioproyecto.Estado)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Inicioproyecto.Observaciones)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Inicioproyecto.ProyectoId)
+                </td>
+                <td>
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Inicioproyecto.Id">Edit</a> |
+                    <a class="btn btn-secondary" asp-action="Details" asp-route-id="@item.Inicioproyecto.Id">Detalle</a> |
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Inicioproyecto.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
