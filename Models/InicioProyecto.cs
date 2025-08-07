@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System;
 using System.Collections.Generic;
 
 namespace U1_evaluacion_sumativa.Models;
@@ -20,7 +21,7 @@ public partial class InicioProyecto
     public int ProyectoId { get; set; }
 
     public virtual ICollection<DireccionamientoIp> DireccionamientoIps { get; set; } = new List<DireccionamientoIp>();
-
+    [ValidateNever]
     public virtual Proyecto Proyecto { get; set; } = null!;
 
     public virtual ICollection<Trabajadore> Trabajadores { get; set; } = new List<Trabajadore>();

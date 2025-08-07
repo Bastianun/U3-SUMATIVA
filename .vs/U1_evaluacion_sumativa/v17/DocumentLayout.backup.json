@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|c:\\users\\alumno\\downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|c:\\users\\alumno\\downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\models\\trabajadore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|solutionrelative:models\\trabajadore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|c:\\users\\alumno\\downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\models\\inicioproyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|solutionrelative:models\\inicioproyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|c:\\users\\alumno\\downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\models\\direccionamientoip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|solutionrelative:models\\direccionamientoip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|c:\\users\\alumno\\downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\models\\detalleproyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|solutionrelative:models\\detalleproyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|c:\\users\\alumno\\downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\views\\inicioproyectoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|solutionrelative:views\\inicioproyectoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|c:\\users\\alumno\\downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\views\\direccionamientoips\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|solutionrelative:views\\direccionamientoips\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|c:\\users\\alumno\\downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\models\\direccionamientoip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|solutionrelative:models\\direccionamientoip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|c:\\users\\alumno\\downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\controllers\\direccionamientoipscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,37 +54,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Views\\DireccionamientoIps\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\DireccionamientoIps\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Views\\DireccionamientoIps\\Index.cshtml",
-              "RelativeToolTip": "Views\\DireccionamientoIps\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-07T17:15:23.145Z",
+              "DocumentIndex": 0,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T17:23:45.384Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DireccionamientoIpsController.cs",
-              "DocumentMoniker": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Controllers\\DireccionamientoIpsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DireccionamientoIpsController.cs",
-              "ToolTip": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Controllers\\DireccionamientoIpsController.cs",
-              "RelativeToolTip": "Controllers\\DireccionamientoIpsController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAwwDsAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Trabajadore.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Models\\Trabajadore.cs",
+              "RelativeDocumentMoniker": "Models\\Trabajadore.cs",
+              "ToolTip": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Models\\Trabajadore.cs",
+              "RelativeToolTip": "Models\\Trabajadore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T17:14:15.831Z",
+              "WhenOpened": "2025-08-07T17:23:37.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InicioProyecto.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Models\\InicioProyecto.cs",
+              "RelativeDocumentMoniker": "Models\\InicioProyecto.cs",
+              "ToolTip": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Models\\InicioProyecto.cs",
+              "RelativeToolTip": "Models\\InicioProyecto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA1wBcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T17:23:31.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "DetalleProyecto.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Models\\DetalleProyecto.cs",
+              "RelativeDocumentMoniker": "Models\\DetalleProyecto.cs",
+              "ToolTip": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Models\\DetalleProyecto.cs",
+              "RelativeToolTip": "Models\\DetalleProyecto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T17:23:21.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Views\\DireccionamientoIps\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\DireccionamientoIps\\Create.cshtml",
@@ -76,12 +118,11 @@
               "RelativeToolTip": "Views\\DireccionamientoIps\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-07T17:13:56.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T17:13:56.191Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "ProyectoesController.cs",
               "DocumentMoniker": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Controllers\\ProyectoesController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProyectoesController.cs",
@@ -89,17 +130,16 @@
               "RelativeToolTip": "Controllers\\ProyectoesController.cs",
               "ViewState": "AgIAAKoAAAAAAAAAAAAqwJAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T16:52:03.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T16:52:03.631Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Views\\InicioProyectoes\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\InicioProyectoes\\Details.cshtml",
-              "ToolTip": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Views\\InicioProyectoes\\Details.cshtml*",
-              "RelativeToolTip": "Views\\InicioProyectoes\\Details.cshtml*",
+              "ToolTip": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Views\\InicioProyectoes\\Details.cshtml",
+              "RelativeToolTip": "Views\\InicioProyectoes\\Details.cshtml",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-07T16:47:10.597Z",
@@ -107,20 +147,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DireccionamientoIp.cs",
               "DocumentMoniker": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Models\\DireccionamientoIp.cs",
               "RelativeDocumentMoniker": "Models\\DireccionamientoIp.cs",
               "ToolTip": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Models\\DireccionamientoIp.cs",
               "RelativeToolTip": "Models\\DireccionamientoIp.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAA0wB0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-07T17:14:52.227Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "DireccionamientoIpsController.cs",
+              "DocumentMoniker": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Controllers\\DireccionamientoIpsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DireccionamientoIpsController.cs",
+              "ToolTip": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Controllers\\DireccionamientoIpsController.cs",
+              "RelativeToolTip": "Controllers\\DireccionamientoIpsController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwDsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T17:14:15.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Views\\DireccionamientoIps\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\DireccionamientoIps\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Views\\DireccionamientoIps\\Index.cshtml",
+              "RelativeToolTip": "Views\\DireccionamientoIps\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-07T17:15:23.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "InicioProyectoesController.cs",
               "DocumentMoniker": "C:\\Users\\ALUMNO\\Downloads\\u3_evaluacion_sumativa-master\\u3_evaluacion_sumativa-master\\Controllers\\InicioProyectoesController.cs",
               "RelativeDocumentMoniker": "Controllers\\InicioProyectoesController.cs",
@@ -128,8 +192,7 @@
               "RelativeToolTip": "Controllers\\InicioProyectoesController.cs",
               "ViewState": "AgIAAGwAAAAAAAAAAAAmwJgAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T16:51:58.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T16:51:58.361Z"
             }
           ]
         }
